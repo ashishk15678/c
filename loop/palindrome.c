@@ -1,5 +1,8 @@
 /*
 Program to check for palindrome for given number
+
+        Palindrome : A number which is equal to itself when reversed
+
         Example
                 1. Enter the number : 121
                     Palindrome
