@@ -22,11 +22,13 @@ int main()
 
     // function call
     // Arguments passed here are actual arguments
-    // c = sum(a, b);
+    c = sum(a, b);
+    printf("Sum of a+b is %d\n", sum(a, b));
+
+    // swap using pointers
     printf("a : %d before swap and b : %d before swap", a, b);
     swap(&a, &b);
     printf("\na is %d and b is %d\n", a, b);
-    // printf("Sum of a+b is %d\n", sum(a, b));
 }
 
 // function definition
